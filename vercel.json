@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "GH勤務マニュアル.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/GH勤務マニュアル.html" }
+  ]
+}
